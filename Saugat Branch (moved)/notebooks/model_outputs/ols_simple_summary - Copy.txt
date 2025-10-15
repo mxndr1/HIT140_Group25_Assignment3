@@ -1,0 +1,26 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     bat_landing_to_food   R-squared:                       0.137
+Model:                             OLS   Adj. R-squared:                  0.134
+Method:                  Least Squares   F-statistic:                     36.49
+Date:                 Sun, 12 Oct 2025   Prob (F-statistic):           1.97e-15
+Time:                         19:56:29   Log-Likelihood:                -1504.0
+No. Observations:                  461   AIC:                             3014.
+Df Residuals:                      458   BIC:                             3026.
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          6.2175      0.295     21.056      0.000       5.637       6.798
+risk           4.0890      0.494      8.274      0.000       3.118       5.060
+reward         2.6506      0.494      5.363      0.000       1.679       3.622
+==============================================================================
+Omnibus:                      100.664   Durbin-Watson:                   1.884
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              169.456
+Skew:                           1.319   Prob(JB):                     1.60e-37
+Kurtosis:                       4.364   Cond. No.                         3.02
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

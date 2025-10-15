@@ -1,0 +1,12 @@
+# Minimal pinned requirements for reproducible analysis
+python>=3.9
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.0
+seaborn==0.12.2
+scikit-learn==1.3.2
+statsmodels==0.14.0
+jupyter==1.0.0
+notebook==6.5.4
+ipython==8.19.0
+black==23.9.1

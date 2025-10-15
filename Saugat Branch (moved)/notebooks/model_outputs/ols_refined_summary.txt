@@ -1,0 +1,27 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     bat_landing_to_food   R-squared:                       0.148
+Model:                             OLS   Adj. R-squared:                  0.143
+Method:                  Least Squares   F-statistic:                     26.52
+Date:                 Sun, 12 Oct 2025   Prob (F-statistic):           7.90e-16
+Time:                         19:56:29   Log-Likelihood:                -1501.1
+No. Observations:                  461   AIC:                             3010.
+Df Residuals:                      457   BIC:                             3027.
+Df Model:                            3                                         
+Covariance Type:             nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                               6.2175      0.294     21.167      0.000       5.640       6.795
+risk                                4.0254      0.492      8.176      0.000       3.058       4.993
+reward                              2.6031      0.492      5.290      0.000       1.636       3.570
+log1p_seconds_after_rat_arrival     0.7088      0.294      2.410      0.016       0.131       1.287
+==============================================================================
+Omnibus:                       97.397   Durbin-Watson:                   1.867
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              161.381
+Skew:                           1.287   Prob(JB):                     9.05e-36
+Kurtosis:                       4.331   Cond. No.                         3.02
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
